@@ -16,7 +16,8 @@ class CardVerticalMeals extends StatelessWidget {
         ),
         elevation: 3,
         clipBehavior: Clip.antiAlias,
-        child: SizedBox(
+        child: Flexible(
+          child: SizedBox(
           height: 340.0,
           width: 350.0, 
           child: Column(
@@ -69,6 +70,7 @@ class CardVerticalMeals extends StatelessWidget {
             ],
           ),
         ),
+        )
       ),
     );
   }
