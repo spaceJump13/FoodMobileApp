@@ -30,8 +30,7 @@ class MealsDealsCard extends StatelessWidget {
         elevation: 3,
         clipBehavior: Clip.antiAlias,
         child: SizedBox(
-          height: 220.0, 
-          width: 200.0,
+          width: 220.0,
           child: Column(
             children: [
               ClipRRect(

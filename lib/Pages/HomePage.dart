@@ -131,7 +131,7 @@ class _MyAppState extends State<HomePage> {
             ),
 
             SizedBox(
-            height: 245.0,
+            height: 250.0,
             child: ListView.separated(
               scrollDirection: Axis.horizontal,
               itemCount: mostPopularMenu.length,
@@ -178,7 +178,7 @@ class _MyAppState extends State<HomePage> {
             ),
 
             SizedBox(
-              height: 245.0,
+              height: 250.0,
               child: ListView.separated(
                 scrollDirection: Axis.horizontal,
                 itemCount: mealDeals.length,
@@ -187,7 +187,7 @@ class _MyAppState extends State<HomePage> {
               ),
             ),
 
-            SizedBox(height: 15.0)
+            const SizedBox(height: 15.0)
           ],
         ),
       );

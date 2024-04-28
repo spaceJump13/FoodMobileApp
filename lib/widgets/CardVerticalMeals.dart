@@ -19,7 +19,7 @@ class CardVerticalMeals extends StatelessWidget {
         child: Flexible(
           child: SizedBox(
           height: 340.0,
-          width: 350.0, 
+          width: double.infinity, 
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,

@@ -28,7 +28,7 @@ class MostPopularCard extends StatelessWidget {
         elevation: 3,
         clipBehavior: Clip.antiAlias,
         child: SizedBox(
-          width: 200.0,
+          width: 220.0,
           child: Column(
             children: [
               ClipRRect(

@@ -37,6 +37,7 @@ class MostPopularPage extends StatelessWidget {
           separatorBuilder: (context, index) => const SizedBox(),
           itemBuilder: (context, index) => CardVerticalPopular(mostPopularMenu: mostPopular[index]),
         ),
+        
         // bottomNavigationBar: const BottomNavigatorWidget(),
       ),
     );

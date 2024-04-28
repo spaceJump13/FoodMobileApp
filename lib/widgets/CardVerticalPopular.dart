@@ -17,8 +17,8 @@ class CardVerticalPopular extends StatelessWidget {
         elevation: 3,
         clipBehavior: Clip.antiAlias,
         child: SizedBox(
-          height: 340.0,
-          width: 350.0, 
+          height: 320.0,
+          width: double.infinity, 
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
